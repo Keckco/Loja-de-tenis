@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Veja aqui os tênis que você marcou para conferir depois.">
+    <title>Sneak Up | Favoritos</title>
+
+    <link rel="stylesheet" href="favoritos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="top">
+            <div class="atendimento">
+                Atendimento via <span class="zap">WhatsApp</span>
+            </div>
+
+            <a href="../index.html" class="logo">Sneak Up</a>
+
+            <div class="header-acoes">
+                <a href="../favoritos/favoritos.html" class="favoritos-header">
+                    <i class="fa-solid fa-heart"></i>
+                    <span id="contadorFavoritos">0</span>
+                </a>
+
+                <a href="../orcamento/carrinho.html" class="carrinho-header">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="contadorCarrinho">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>/</span>
+        <strong>Favoritos</strong>
+    </nav>
+
+    <main class="favoritos-page">
+
+        <section class="favoritos-header-page">
+            <span>Sua seleção</span>
+            <h1>Favoritos</h1>
+            <p>Veja aqui os tênis que você marcou para conferir depois.</p>
+        </section>
+
+        <section class="favoritos-grid" id="listaFavoritos">
+            <!-- favoritos gerados pelo JS -->
+        </section>
+
+    </main>
+
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-bloco">
+            <h2>Sneak Up</h2>
+            <p>
+                Seu estilo começa pelos pés. Tênis selecionados com atendimento rápido via WhatsApp.
+            </p>
+
+            <div class="footer-redes">
+                <a href="https://www.instagram.com/sneakup/" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/sneakup/" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://wa.me/5542991559911" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bloco">
+            <h3>Menu</h3>
+
+            <a href="../index.html">Início</a>
+            <a href="../catalogo/catalogo.html">Catálogo</a>
+            <a href="../favoritos/favoritos.html">Favoritos</a>
+            <a href="../orcamento/carrinho.html">Carrinho</a>
+        </div>
+
+        <div class="footer-bloco">
+            <h3>Atendimento</h3>
+
+            <p>Fale conosco pelo WhatsApp.</p>
+            <a class="footer-whatsapp" href="https://wa.me/5542991559911" aria-label="Chamar no WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+                Chamar no WhatsApp
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2026 - Sneak Up. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <script type="module" src="favoritos.js"></script>
+</body>
+
+</html>

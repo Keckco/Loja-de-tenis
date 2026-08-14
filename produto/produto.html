@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneak Up | Produtos</title>
+
+    <link rel="stylesheet" href="produto.css">
+    <meta name="description" content="Conheça a Sneak Up: loja de tênis com modelos casuais, esportivos e promoções. Atendimento rápido via WhatsApp.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="top">
+            <div class="atendimento">Atendimento via <span class="zap"> WhatsApp</span></div>
+
+            <a href="../index.html" class="logo">Sneak Up</a>
+
+            <div class="header-acoes">
+                <a href="../favoritos/favoritos.html" class="favoritos-header">
+                    <i class="fa-solid fa-heart"></i>
+                    <span id="contadorFavoritos">0</span>
+                </a>
+
+                <a href="../orcamento/carrinho.html" class="carrinho-header">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="contadorCarrinho">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>/</span>
+        <a href="../catalogo/catalogo.html">Catálogo</a>
+        <span>/</span>
+        <strong id="breadcrumb-produto">Produto</strong>
+    </nav>
+
+    <main class="produto-page">
+
+        <section class="produto-container">
+
+            <div class="produto-galeria">
+                <div class="imagem-principal">
+                    <img id="imagemPrincipal" src="" alt="">
+                </div>
+
+                <div class="miniaturas" id="miniaturas">
+                    <!-- miniaturas pelo JS -->
+                </div>
+            </div>
+
+            <div class="produto-dados">
+                <span class="produto-marca" id="produtoMarca">Marca</span>
+
+                <h1 id="produtoNome">Nome do produto</h1>
+
+                <div class="produto-tags">
+                    <span id="produtoCategoria">Categoria</span>
+                    <span id="produtoGenero">Gênero</span>
+                </div>
+
+                <div class="produto-precos">
+                    <span class="preco-atual" id="produtoPreco">R$ 0,00</span>
+                    <span class="preco-antigo" id="produtoPrecoAntigo"></span>
+                    <span class="produto-desconto" id="produtoDesconto"></span>
+                </div>
+
+                <p class="produto-descricao" id="produtoDescricao">
+                    Descrição do produto.
+                </p>
+
+                <div class="tamanhos-area">
+                    <h3>Escolha o tamanho</h3>
+
+                    <div class="tamanhos" id="tamanhos">
+                        <!-- tamanhos pelo JS -->
+                    </div>
+
+                    <p class="aviso-tamanho" id="avisoTamanho">
+                        Escolha um tamanho para adicionar ao carrinho.
+                    </p>
+                </div>
+                <div class="quantidade-produto" id="quantidadeProduto">
+                    <h3>Quantidade</h3>
+
+                    <div class="controle-quantidade">
+                        <button id="diminuirQuantidade">-</button>
+                        <span id="quantidadeSelecionada">1</span>
+                        <button id="aumentarQuantidade">+</button>
+                    </div>
+                </div>
+
+                <div class="acoes-produto">
+                    <button id="adicionarOrcamento" class="btn-orcamento">
+                        Adicionar ao Carrinho
+                    </button>
+                    <button id="removerOrcamento" class="btn-remover-orcamento">
+                        Remover
+                    </button>
+
+
+                    <a href="../orcamento/carrinho.html" class="btn-ver-orcamento">
+                        Ver Carrinho
+                    </a>
+                </div>
+                <p id="feedbackOrcamento" class="feedback-orcamento"></p>
+                <div class="itens-adicionados" id="itensAdicionados">
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+        <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-bloco">
+            <h2>Sneak Up</h2>
+            <p>
+                Seu estilo começa pelos pés. Tênis selecionados com atendimento rápido via WhatsApp.
+            </p>
+
+            <div class="footer-redes">
+                <a href="https://www.instagram.com/sneakup/" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/sneakup/" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://wa.me/5542991559911" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bloco">
+            <h3>Menu</h3>
+
+            <a href="../index.html">Início</a>
+            <a href="../catalogo/catalogo.html">Catálogo</a>
+            <a href="../favoritos/favoritos.html">Favoritos</a>
+            <a href="../orcamento/carrinho.html">Carrinho</a>
+        </div>
+
+        <div class="footer-bloco">
+            <h3>Atendimento</h3>
+
+            <p>Fale conosco pelo WhatsApp.</p>
+            <a class="footer-whatsapp" href="https://wa.me/5542991559911" aria-label="Chamar no WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+                Chamar no WhatsApp
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2026 - Sneak Up. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <script type="module" src="produto.js"></script>
+</body>
+
+</html>
