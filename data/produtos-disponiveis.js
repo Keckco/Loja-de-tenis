@@ -8,9 +8,9 @@ export const produtos = [
         preco: 1199.90,
         precoAntigo: 899.99,
         imagens: [
-            "img/tenis/3.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40,41,42],
         destaque: true,
@@ -27,9 +27,9 @@ export const produtos = [
         preco: 99.90,
         precoAntigo: 799.90,
         imagens: [
-            "img/tenis/2.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/2.png",
+            "../favoritos/img/tenis/2-2.png",
+            "../favoritos/img/tenis/2-3.png"
         ],
         tamanhos: [38, 40, 42],
         destaque: true,
@@ -46,9 +46,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 559.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [40, 41, 42],
         destaque: true,
@@ -65,9 +65,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -84,9 +84,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 599.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -103,9 +103,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 499.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -122,9 +122,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -141,9 +141,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -160,9 +160,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -179,9 +179,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -198,9 +198,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -217,9 +217,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -236,9 +236,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -255,9 +255,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -274,9 +274,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -293,9 +293,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -312,9 +312,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -331,9 +331,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -350,9 +350,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -369,9 +369,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -388,9 +388,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -407,9 +407,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -426,9 +426,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -445,9 +445,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -464,9 +464,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -483,9 +483,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -502,9 +502,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
@@ -521,9 +521,9 @@ export const produtos = [
         preco: 199.90,
         precoAntigo: 299.90,
         imagens: [
-            "img/tenis/1.png",
-            "img/tenis/1-2.png",
-            "img/tenis/1-3.png"
+            "../favoritos/img/tenis/1.png",
+            "../favoritos/img/tenis/1-2.png",
+            "../favoritos/img/tenis/1-3.png"
         ],
         tamanhos: [38, 39, 40, 42],
         destaque: true,
